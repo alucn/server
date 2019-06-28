@@ -1,0 +1,12 @@
+{
+    "name": "alucn/server",
+    "description": "PHP Web Server",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Alucn",
+            "email": "alucn@qq.com"
+        }
+    ],
+    "require": {}
+}
