@@ -1,12 +1,26 @@
 {
     "name": "alucn/server",
-    "description": "PHP Web Server",
+    "description": "PHP Web server",
     "type": "library",
+    "license": "MIT",
     "authors": [
         {
-            "name": "Alucn",
-            "email": "alucn@qq.com"
+            "name": "alucn",
+            "email": "alucn@qq.com",
+	    "homepage": "http://alu.org.cn",
+            "role": "Developer"
         }
     ],
-    "require": {}
+    "minimum-stability":"stable",
+    "require": {
+    },
+    "autoload":{
+        "psr-4":{
+            "Core\\":"server/core/",
+            "Apps\\":"server/apps/",
+            "Models\\":"server/models/",
+            "Helper\\":"server/helper/",
+            "Server\\":"vendor/alucn/server/"
+        }
+    }
 }
